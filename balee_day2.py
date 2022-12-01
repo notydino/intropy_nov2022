@@ -82,3 +82,18 @@ print(discounted_inventory)
 squares2 = (i**2 for i in range(1,101))
 
 range(0,1000)
+
+
+#%% Exception handling
+# The while loop in this case doesn't have a exit condition, therefore will loop forever
+# Thus the loop interrupt will be carried out by breakm
+while True:
+    try:
+    	num = int(input('Enter a number: '))
+    except:
+        print('Not a number!')
+    else:
+        print(f'You have entered {num}')
+        break
+    finally:
+    	print('Bye!')

@@ -8,5 +8,10 @@
 # Enter a string: PyThoN
 # pYtHOn
 
-astring = input("Enter a string: ")
-print(astring.swapcase())
+x=input("Please enter a string ")
+print ("The string you entered is :", x)
+print ("First capital: ",x.capitalize())
+print ("All capital: ",x.upper())
+print ("All smallcase: ",x.lower())
+print ("Opposite caps: ",x.swapcase())
+

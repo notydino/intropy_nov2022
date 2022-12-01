@@ -5,6 +5,7 @@
 # gra
 # Enter a string: Hi!
 # !iH
+x = input("Enter a string: ")
+print ("The string you entered is :", x)
 
-astring = input("Enter a string: ")
-print(astring[::-1])
+print("The reverse of the string is ",x[::-1]) # reverse string

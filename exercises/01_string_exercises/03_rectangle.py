@@ -4,11 +4,11 @@
 # Enter length: 5
 # Enter width: 3
 # perimeter = 16, area = 15.
-
 try:
-    length = int(input("Enter length: "))
-    width = int(input("Enter width: "))
+    x=int(input("Please insert X "))
+    y=int(input("Please insert Y "))
 except:
-    print('Error! Invalid input value.')
+    print("Error, please use int only")
 else:
-    print(f'perimeter = {2*length + 2*width}, area = {length * width}')
+    print("The Area is : ", x, " * ", y, "=", f'{x*y:.2f}')
+12

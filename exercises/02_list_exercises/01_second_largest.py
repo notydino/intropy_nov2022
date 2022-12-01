@@ -2,8 +2,14 @@
 alist = [12, 43, 57, 98, 83, -103, 256, -55, 185]
 print(f'{alist=}')
 
-print(f'Second largest number = {sorted(alist)[-2]}')
+blist=sorted(alist)
+clist=sorted(alist, reverse=True)
+print(f'{blist=}')
+print(f'{clist=}')
 
-# Alternative solution
-alist.sort()
-print(f'Second largest number = {alist[-2]}')
+print("The 2nd biggest value is ", clist[1])
+print("The 2nd biggest is also ", sorted(alist)[-2])
+print("The 2nd biggest is definitely ", f"{sorted(alist)[-2]:.2f}")
+
+print(f'{sorted(alist)[-2]:.2f}')
+#print(f'{sorted(alist):.2f}')
